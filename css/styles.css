@@ -10,7 +10,7 @@
    body { background: url("img/fundo.jpg") no-repeat center/cover fixed; }
    e coloque sua imagem em /img/fundo.jpg */
 body {
-  background: linear-gradient(135deg, #2f3e34, #435a3e);
+  background: url("img/fundo.jpg") no-repeat center/cover fixed;
   min-height: 100vh;
 }
 
