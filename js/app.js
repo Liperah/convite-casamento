@@ -5,7 +5,6 @@ function openMaps() {
 function openConfirmForm(){document.getElementById('confirmModal').style.display='block';}
 function closeConfirmForm(){document.getElementById('confirmModal').style.display='none';}
 
-// --- SCRIPT CONTAGEM REGRESSIVA ---
 const targetDate = new Date("Oct 25, 2025 14:30:00").getTime();
 setInterval(() => {
   const now = new Date().getTime();
