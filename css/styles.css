@@ -11,7 +11,6 @@
    e coloque sua imagem em /img/fundo.jpg */
 body {
   background: url("img/fundo.jpg") no-repeat center/cover fixed;
-  min-height: 100vh;
 }
 
     .container { max-width: 850px; margin: 0 auto; padding: 20px; }
