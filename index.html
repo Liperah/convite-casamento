@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malu & Rafael - 25 de Outubro</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="invitation-card">
+      <div class="names">Malu <span class="ampersand">&</span> Rafael</div>
+      <div class="verse">
+        "Quando for a hora certa, eu, o Senhor, farei acontecer." — Isaías 60:22
+      </div>
+      <div class="event-details">
+        <div class="date-time">25 de Outubro de 2025 • 14h30</div>
+
+        <!-- Local -->
+        <div class="location" onclick="openMaps()">
+          📍 Capela Santa Clara — Av. Mal. Deodoro, 399<br>
+          Setor Campinas, Goiânia - GO
+          <div class="click-hint">👆 Clique para abrir no Maps</div>
+        </div>
+
+        <!-- Galeria do Local -->
+        <div class="gallery">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrN0ZGIYyxgw2E7ATEc_RbQghpiPXBmrne1inlHyZ6uTvTP0RMLiWwi2HDzhNXhxtCyAjIxWsdyCjoXW-B349S_Q0DjTaS1gaG-HsTigmXTA33T1F59POmt3_uBd0W17jFPwo0Q=w397-h298-k-no" 
+               alt="Capela Santa Clara">
+        </div>
+
+        <!-- Traje -->
+        <div class="dress-code">
+          <div class="dress-code-title">Traje:</div>
+          Casual Esporte Fino
+        </div>
+        <button class="confirm-button" onclick="openConfirmForm()">💌 Confirmar Presença Até Dia 05/09</button>
+      </div>
+    </div>
+  </div>
+
+    <!-- Lista de Presentes -->
+  <div class="gift-list">
+    <h2 class="gift-title">🎁 Nossa Lista de Presentes</h2>
+    <p class="gift-text">Se desejar nos presentear, criamos com carinho uma lista especial.<br>
+    Sua presença já é o maior presente! 💕</p>
+    
+    <div class="gift-box">
+      <p>✨ Clique abaixo e veja as opções no Mercado Livre</p>
+      <a href="https://www.mercadolivre.com.br/presentes/rafael-e-maria-luiza-58gq1" target="_blank" class="gift-button">
+        🎉 Acessar Lista de Presentes
+      </a>
+    </div>
+  </div>
+
+
+  <!-- Modal com Google Forms -->
+  <div id="confirmModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeConfirmForm()">&times;</span>
+      <h2 style="color: var(--rosa);">Confirmação de Presença</h2>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCsq1xZPu96NAAr-whQO9ba_aAWlL1_CNu8j2EUlratliVUw/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+    </div>
+  </div>
+
+  <!-- FAIXA DE CONTAGEM REGRESSIVA -->
+  <div class="countdown-bar" id="countdown">
+    <div class="countdown-item"><span class="countdown-number" id="days">00</span>Dias</div>
+    <div class="countdown-item"><span class="countdown-number" id="hours">00</span>Horas</div>
+    <div class="countdown-item"><span class="countdown-number" id="minutes">00</span>Minutos</div>
+    <div class="countdown-item"><span class="countdown-number" id="seconds">00</span>Segundos</div>
+  </div>
+
+
+
+<script src="js/app.js"></script>
+</body>
+</html>
