@@ -2,8 +2,8 @@ function openMaps() {
   const address = "Capela Santa Clara, Av. Mal. Deodoro, 399, Goiânia, GO";
   window.open("https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(address), "_blank");
 }
-#function openConfirmForm(){document.getElementById('confirmModal').style.display='block';}
-#function closeConfirmForm(){document.getElementById('confirmModal').style.display='none';}
+function openConfirmForm(){document.getElementById('confirmModal').style.display='block';}
+function closeConfirmForm(){document.getElementById('confirmModal').style.display='none';}
 
 const targetDate = new Date("Oct 25, 2025 14:30:00").getTime();
 setInterval(() => {
